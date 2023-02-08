@@ -66,4 +66,4 @@ const getLatestBlock = async () => {
     insertTransaction(data2);}
   }
 }
-getLatestBlock();
+setInterval(getLatestBlock, 10000);
