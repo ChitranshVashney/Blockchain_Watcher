@@ -21,7 +21,7 @@ CREATE TABLE transactions (
 4. Replace "LI5Jac5S56Yek1xbJSsicRhKAWtmzKB8" with your Alchemy API key.
 5. Replace addresses[add] with the list of addresses you want to track.
 ## Running the Script
-1. Run the script using the command node index.js
+1. Run the script using the command `node index.js`
 2. The transactions will be inserted into the MySQL database every 10 seconds.
 ## Notes
 1. This script is set up to track the Goerli Ethereum test network. To track the main Ethereum network, change Network.ETH_GOERLI to Network.ETH_MAINNET in the code.
