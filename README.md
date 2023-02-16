@@ -19,7 +19,6 @@ CREATE TABLE transactions (
 2. Run npm install to install the required dependencies.
 3. Replace "your_user", "your_password", and "your_database" in the code with the corresponding information for your MySQL database.
 4. Replace "LI5Jac5S56Yek1xbJSsicRhKAWtmzKB8" with your Alchemy API key.
-5. Replace addresses[add] with the list of addresses you want to track.
 ## Running the Script
 1. Run the script using the command `node checkTransactions.js`
 2. The transactions will be inserted into the MySQL database every 10 seconds.
